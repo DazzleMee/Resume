@@ -50,7 +50,7 @@ export default function Portfolio() {
 
         
         <main className="flex-1 p-6 md:p-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-black text-center md:text-left">Hello! I'm Shrehar</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-black text-center md:text-left">Hello! Im Shrehar</h1>
           <p className="text-gray-500 text-lg mt-2 text-center md:text-left">
             A Computer Science Student with a Passion for Technology and Problem-Solving
           </p>
