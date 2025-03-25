@@ -35,22 +35,16 @@ export default function Portfolio() {
 
     
       <div className="flex flex-col md:flex-row flex-1 mt-3 text-center md:text-left">
-        <aside className="bg-orange-200 p-10 flex items-center justify-center w-full md:w-1/3">
-          <div className="bg-white shadow-lg p-10 md:p-20 rounded-lg text-center">
+        <aside className="bg-orange-200 p-15 flex items-center justify-center w-full md:w-1/3">
+          <div className="bg-white shadow-lg p-15 md:p-30 rounded-lg text-center">
             <img 
               src={Self2024.src} 
               alt="Shrehar Akash" 
-              className="w-40 h-40 sm:w-24 sm:h-24 object-cover rounded-full mx-auto"
+              className="w-40 h-40 sm:w-40 sm:h-70 object-cover rounded-full mx-auto"
             />
             <h2 className="font-bold text-xl mt-4 text-black">SHREHAR AKASH</h2>
             <div className="w-full border-b-2 border-black mt-2"></div>
             <p className="text-gray-500 p-1">Software Developer</p>
-            <div className="flex justify-center space-x-4 mt-4">
-              <a href="#"><i className="fab fa-facebook"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-            </div>
           </div>
         </aside>
 

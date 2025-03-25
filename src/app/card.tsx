@@ -8,7 +8,7 @@ interface ProjectCardProps {
   onButtonClick: () => void;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, tags, buttonText, onButtonClick }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, tags}) => {
     return (
         <div className="border-2 border-black rounded-lg p-6 shadow-md max-w-md bg-white">
         {/* Project Title */}
