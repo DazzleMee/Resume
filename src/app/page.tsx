@@ -56,11 +56,13 @@ export default function Portfolio() {
           </p>
 
           
-          <div className="flex justify-center md:justify-start p-6">
+          <div className="flex flex-col items-center md:items-start p-6">
             <button className="bg-black text-white px-6 py-3 rounded-md font-semibold text-lg md:text-base">
-              My Projects 
+              My Projects
             </button>
+            <span className="text-black text-2xl mt-3 pl-10">↓↓↓</span>
           </div>
+
 
           
           <div className="w-full border-b-2 border-black mt-2"></div>
