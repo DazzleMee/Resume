@@ -58,7 +58,8 @@ export default function Portfolio() {
             />
             <h2 className="font-bold text-xl mt-4 text-black">SHREHAR AKASH</h2>
             <div className="w-full border-b-2 border-black mt-2"></div>
-            <p className="text-gray-500 p-1">Software Developer</p>
+            <p className="text-gray-500 p-1">Software Engineer</p>
+            <p className="text-gray-500  mt-5">I Love making end-to-end projects!</p>
           </div>
         </aside>
 
@@ -111,12 +112,21 @@ export default function Portfolio() {
             <ProjectCard
               title="Full Stack Developer at Boost Connect Sdn Bhd Sparkle Team"
               description="Contributed to building a merchant website that enables merchants to monitor expenses and earnings from Boost payments, integrates Seedflex services, and supports selling Boost’s products"
-              timeline="August 2025 - Current"
+              timeline="August 2025 - December 2025"
               tags={["React", "Node.js", "ArgoCD", "Jenkins", "Bitbucket", "PostgreSQL"]}
               buttonText="View Project"
               onButtonClick={() =>
                 window.open("https://merchant.boostbusiness.my/auth/login")
               }
+            />
+
+            <ProjectCard
+              title="Software Engineer at Boost Connect Sdn Bhd Payment Gateway Team"
+              description="Confuguring the merchant portal and Payment UI page that allows payments such as E-wallets, debit/credit cards and online banks. "
+              timeline="January 2026 - Current"
+              tags={["Svelte", "Node.js", "ArgoCD", "Jenkins", "Bitbucket", "PostgreSQL", "Hashicorp Vault", "Java", "Spring Boot", "Docker"]}
+              buttonText="View Project"
+              onButtonClick={() => window.open("https://merchant.boostconnect.biz")}
             />
           </div>
         </main>
